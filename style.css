@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+}
+
+.upper_container {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(76,62,54,1) 0%, rgba(25,25,27,1) 100%);
+}
+.upper_box {
+    background: url(img/Dog7.png);
+    background-repeat: no-repeat;
+    background-position: right bottom -249px;
+    background-size: 53%;
+}
+.up_menu {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    padding: 0;
+}
+.up_shelter {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+}
+.up_h {
+    margin-top: 32px;
+    font-weight: normal;
+    font-size: 32px;
+    font-family: "Georgia";
+    color: #f1cdb3; 
+    padding: bottom 0; 
+}
+a {
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+a:hover {
+    text-decoration: underline 7px #f1cdb3;
+}
+.right {
+    display: flex;
+    justify-content: space-between ;
+    list-style: none;
+    margin-top: 50px;
+}
+.up_text {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 150px;
+}
+.up-i-h {
+    margin: 150px auto 0;
+    font-size: 44px;
+    font-family: "Georgia";
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.up-i-text {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(205, 205, 205);
+    margin: 45px auto;
+    line-height: 24px;
+}
+
+input.up_button{
+    height: 55px;
+    width: 210px;
+    border: 2px solid #f1cdb3;
+    border-radius: 30px;
+    background-color: #f1cdb3;
+    font-size: 17px;
+    font-family: "Georgia";
+    color: #292929;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+input.up_button:hover {
+    cursor: pointer;
+}
+
+.main_container {
+   
+}
+.main_about {
+    background: #fafafa;
+}
+.about_box {
+    width: 830px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 0;
+}
+.h_about {
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    font-weight: normal;
+}
+.text_about {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(76, 76, 76);
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+.main_pets {
+    width: 1170px;
+    margin: 72px auto 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0 auto 70px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+}
+.items {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_items {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    display:flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    padding-bottom: 35px;
+    margin: 0 17px;
+    border-radius: 10px;
+}
+.main_rest {
+    margin:66px auto 0;
+    padding: 20px 30px;
+    background: #f1cdb3;
+    border: solid #f1cdb3;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "Georgia";
+    color: rgb(41, 41, 41);    
+}
+input.main_rest:hover {
+    cursor: pointer;
+}
+.main_img {
+}
+input.main_buttons{
+    height: 52px;
+    width: 189px;
+    border: 2px solid #f1cdb3;
+    border-radius: 30px;
+    background-color: #fafafa;
+    font-size: 17px;
+    font-family: "Georgia";
+    color: rgb(41, 41, 41);
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+input.main_buttons:hover {
+    background-color: #f1cdb3;
+    cursor: pointer;
+}
+.name {
+    font-size: 20px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    text-align: center;
+    margin: 30px auto 20px;
+    padding: 0;
+}
+.arrow {
+    padding: 25px;
+    background: #f6f6f6;
+    border: 2px solid #f1cdb3;
+    border-radius: 50%;
+}
+.arrow:hover{
+    background: #f1cdb3;
+    cursor: pointer;
+}
+.main_help {
+    background: #fafafa;
+}
+.help_box {
+    width: 1030px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 75px;
+}
+.h_help {
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 77px;
+    margin-top: 0;
+}
+.help_item {
+    flex-basis: 200px;
+    margin-bottom: 84px;
+}
+.help_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.help {
+    height: 55px;
+    margin-bottom: 30px;
+}
+.help_text {
+    font-size: 20px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+}
+.main_addition {
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 86px;
+    padding-top: 73px;
+}
+.ad_items {
+}
+
+.ad_dog {
+margin-right: 62px;
+height: 272px;
+margin-top: 45px;
+}
+.h_addition {
+    font-size: 35px;
+    font-weight: normal;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    margin-bottom: 36px;
+    
+}
+.bank {
+    font-size: 15px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    background: #f1cdb3;
+    border-radius: 10px;
+}
+.img_card {
+    height: 24px;
+    margin-right: 7px;
+}
+.card_number {
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: rgb(41, 41, 41);
+    margin: 0;
+    padding: 0;
+}
+.addition_text {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(178, 178, 178);
+    font-style: italic;
+    margin-top: 34px;
+
+}
+
+.down_container {
+    margin: 0;
+    padding: 0;
+    background: rgb(76,62,54);
+    background: linear-gradient(90deg, rgba(76,62,54,1) 49%, rgba(25,25,27,1) 100%);
+}
+.db_inner {
+    width: 1170px;
+    margin: 0 auto;
+}
+.down_items {
+    display: flex;
+    justify-content: space-between;
+}
+.d_item {
+    display: grid;
+    padding: 0;
+    margin-top: 83px;
+    padding-bottom: 20px;
+}
+.contacts {
+
+}
+.contact {
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Times New Roman";
+    color: rgb(241, 205, 179);
+    text-align: left;
+}
+.contact_text {
+    margin: 0;
+    padding: 0;
+}
+.fa {
+    margin-right: 27px;
+}
+.img_location {
+    height: 40px;
+    padding: 0;
+}
+.img_phone  {
+    height: 35px;
+}
+.img_mail {
+    height: 30px;
+}
+.down_h {
+    font-size: 35px;
+    font-family: "Georgia";
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
